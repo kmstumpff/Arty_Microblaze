@@ -1,0 +1,47 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port ddr3_sdram -pg 1 -y 630 -defaultsOSRD
+preplace port sys_clock -pg 1 -y 730 -defaultsOSRD
+preplace port usb_uart -pg 1 -y 460 -defaultsOSRD
+preplace port reset -pg 1 -y 650 -defaultsOSRD
+preplace inst rst_mig_7series_0_83M -pg 1 -lvl 1 -y 410 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 4 -y 670 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 3 -y 240 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 3 -y 450 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 1 -y 190 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 4 -y 470 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 2 -y 190 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 3 -y 720 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 3 -y 90 -defaultsOSRD
+preplace netloc mig_7series_0_mmcm_locked 1 0 5 40 590 NJ 590 NJ 590 1220J 760 1520
+preplace netloc mig_7series_0_DDR3 1 4 1 NJ
+preplace netloc microblaze_0_Clk 1 0 5 30 280 410 280 920 570 1220 570 1520
+preplace netloc axi_smc_M00_AXI 1 3 1 1230
+preplace netloc rst_mig_7series_0_83M_peripheral_aresetn 1 1 3 NJ 450 910 580 1250
+preplace netloc microblaze_0_axi_periph_M00_AXI 1 3 1 N
+preplace netloc microblaze_0_M_AXI_DP 1 2 1 900
+preplace netloc microblaze_0_M_AXI_DC 1 2 1 N
+preplace netloc microblaze_0_ilmb_1 1 2 1 900
+preplace netloc sys_clock_1 1 0 3 NJ 730 NJ 730 NJ
+preplace netloc rst_mig_7series_0_83M_mb_reset 1 1 1 400
+preplace netloc microblaze_0_M_AXI_IC 1 2 1 N
+preplace netloc clk_wiz_0_clk_out1 1 3 1 1240
+preplace netloc axi_uartlite_0_UART 1 4 1 NJ
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 0 5 40 320 NJ 320 NJ 320 NJ 320 1530
+preplace netloc clk_wiz_0_clk_out2 1 3 1 1230
+preplace netloc microblaze_0_dlmb_1 1 2 1 890
+preplace netloc microblaze_0_debug 1 1 1 N
+preplace netloc rst_mig_7series_0_83M_interconnect_aresetn 1 1 2 NJ 430 N
+preplace netloc mdm_1_debug_sys_rst 1 0 2 20 250 380
+preplace netloc reset_1 1 0 4 NJ 650 NJ 650 910 650 NJ
+preplace netloc rst_mig_7series_0_83M_bus_struct_reset 1 1 2 390J 100 910
+levelinfo -pg 1 0 210 650 1070 1390 1560 -top 0 -bot 790
+",
+}
+{
+   da_axi4_cnt: "4",
+   da_board_cnt: "3",
+   da_clkrst_cnt: "1",
+   da_mb_cnt: "2",
+}

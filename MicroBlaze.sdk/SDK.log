@@ -1,0 +1,181 @@
+17:46:00 INFO  : Registering command handlers for SDK TCF services
+17:46:00 INFO  : Launching XSCT server: xsct.bat -interactive C:\Arty\MicroBlaze\MicroBlaze.sdk\temp_xsdb_launch_script.tcl
+17:46:02 INFO  : XSCT server has started successfully.
+17:46:04 INFO  : Successfully done setting XSCT server connection channel  
+17:46:04 INFO  : Processing command line option -hwspec C:/Arty/MicroBlaze/MicroBlaze.sdk/system_wrapper.hdf.
+17:46:04 INFO  : Successfully done setting SDK workspace  
+17:55:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:55:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A43BFEA" && level==0} -index 0' command is executed.
+17:55:24 INFO  : FPGA configured successfully with bitstream "C:/Arty/MicroBlaze/MicroBlaze.sdk/system_wrapper_hw_platform_0/download.bit"
+17:56:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A43BFEA" && level==0} -index 0' command is executed.
+17:56:02 INFO  : 'fpga -state' command is executed.
+17:56:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:56:02 INFO  : Jtag cable 'Digilent Arty 210319A43BFEA' is selected.
+17:56:02 INFO  : 'jtag frequency' command is executed.
+17:56:02 INFO  : Context for processor 'microblaze_0' is selected.
+17:56:02 ERROR : Cannot stop MicroBlaze. MicroBlaze is held in reset
+17:56:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A43BFEA"} -index 0
+rst -processor
+----------------End of Script----------------
+
+17:56:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A43BFEA" && level==0} -index 0' command is executed.
+17:56:37 INFO  : 'fpga -state' command is executed.
+17:56:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:56:37 INFO  : Jtag cable 'Digilent Arty 210319A43BFEA' is selected.
+17:56:37 INFO  : 'jtag frequency' command is executed.
+17:56:37 INFO  : Context for processor 'microblaze_0' is selected.
+17:56:37 ERROR : Cannot stop MicroBlaze. MicroBlaze is held in reset
+17:56:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A43BFEA"} -index 0
+rst -processor
+----------------End of Script----------------
+
+18:31:56 INFO  : Registering command handlers for SDK TCF services
+18:31:56 INFO  : Launching XSCT server: xsct.bat -interactive C:\Arty\MicroBlaze\MicroBlaze.sdk\temp_xsdb_launch_script.tcl
+18:31:58 INFO  : XSCT server has started successfully.
+18:31:59 INFO  : Successfully done setting XSCT server connection channel  
+18:31:59 INFO  : Processing command line option -hwspec C:/Arty/MicroBlaze/MicroBlaze.sdk/system_wrapper.hdf.
+18:31:59 INFO  : Successfully done setting SDK workspace  
+18:31:59 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+18:31:59 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1495405878368,  Project:1495397055082
+18:31:59 INFO  : The hardware specification for project 'system_wrapper_hw_platform_0' is different from C:/Arty/MicroBlaze/MicroBlaze.sdk/system_wrapper.hdf.
+18:31:59 INFO  : Copied contents of C:/Arty/MicroBlaze/MicroBlaze.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+18:31:59 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:32:01 INFO  : 
+18:32:02 INFO  : Updating hardware inferred compiler options for Hello_world.
+18:32:02 INFO  : Clearing existing target manager status.
+18:32:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:32:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A43BFEA" && level==0} -index 0' command is executed.
+18:32:32 INFO  : FPGA configured successfully with bitstream "C:/Arty/MicroBlaze/MicroBlaze.sdk/system_wrapper_hw_platform_0/download.bit"
+18:32:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A43BFEA" && level==0} -index 0' command is executed.
+18:32:45 INFO  : 'fpga -state' command is executed.
+18:32:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:32:45 INFO  : Jtag cable 'Digilent Arty 210319A43BFEA' is selected.
+18:32:45 INFO  : 'jtag frequency' command is executed.
+18:32:45 INFO  : Context for processor 'microblaze_0' is selected.
+18:32:45 ERROR : Cannot stop MicroBlaze. MicroBlaze is held in reset
+18:32:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A43BFEA"} -index 0
+rst -processor
+----------------End of Script----------------
+
+18:34:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A43BFEA" && level==0} -index 0' command is executed.
+18:34:07 INFO  : 'fpga -state' command is executed.
+18:34:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:34:08 INFO  : Jtag cable 'Digilent Arty 210319A43BFEA' is selected.
+18:34:08 INFO  : 'jtag frequency' command is executed.
+18:34:08 INFO  : Context for processor 'microblaze_0' is selected.
+18:34:08 ERROR : Cannot stop MicroBlaze. MicroBlaze is held in reset
+18:34:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A43BFEA"} -index 0
+rst -processor
+----------------End of Script----------------
+
+18:35:09 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:34:28 INFO  : Launching XSCT server: xsct.bat -interactive C:\Arty\MicroBlaze\MicroBlaze.sdk\temp_xsdb_launch_script.tcl
+19:34:29 INFO  : XSCT server has started successfully.
+19:34:29 INFO  : Successfully done setting XSCT server connection channel  
+19:34:29 INFO  : Successfully done setting SDK workspace  
+19:34:30 INFO  : Registering command handlers for SDK TCF services
+19:34:31 INFO  : Processing command line option -hwspec C:/Arty/MicroBlaze/MicroBlaze.sdk/system_wrapper.hdf.
+19:34:31 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+19:34:31 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1495409632408,  Project:1495405878368
+19:34:31 INFO  : The hardware specification for project 'system_wrapper_hw_platform_0' is different from C:/Arty/MicroBlaze/MicroBlaze.sdk/system_wrapper.hdf.
+19:34:31 INFO  : Copied contents of C:/Arty/MicroBlaze/MicroBlaze.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+19:34:32 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:34:32 INFO  : Clearing existing target manager status.
+19:34:33 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+19:34:33 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+19:36:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:36:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A43BFEA" && level==0} -index 0' command is executed.
+19:36:14 INFO  : FPGA configured successfully with bitstream "C:/Arty/MicroBlaze/MicroBlaze.sdk/system_wrapper_hw_platform_0/download.bit"
+19:36:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A43BFEA" && level==0} -index 0' command is executed.
+19:36:35 INFO  : 'fpga -state' command is executed.
+19:36:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:36:35 INFO  : Jtag cable 'Digilent Arty 210319A43BFEA' is selected.
+19:36:35 INFO  : 'jtag frequency' command is executed.
+19:36:35 INFO  : Context for processor 'microblaze_0' is selected.
+19:36:35 INFO  : Processor reset is completed for 'microblaze_0'.
+19:36:35 INFO  : Context for processor 'microblaze_0' is selected.
+19:36:35 INFO  : The application 'C:/Arty/MicroBlaze/MicroBlaze.sdk/Hello_world/Debug/Hello_world.elf' is downloaded to processor 'microblaze_0'.
+19:36:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A43BFEA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A43BFEA"} -index 0
+dow C:/Arty/MicroBlaze/MicroBlaze.sdk/Hello_world/Debug/Hello_world.elf
+----------------End of Script----------------
+
+19:36:35 INFO  : Memory regions updated for context MicroBlaze #0
+19:36:35 INFO  : Memory regions updated for context MicroBlaze #0
+19:36:35 INFO  : Context for processor 'microblaze_0' is selected.
+19:36:35 INFO  : 'con' command is executed.
+19:36:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A43BFEA"} -index 0
+con
+----------------End of Script----------------
+
+19:36:35 INFO  : Launch script is exported to file 'C:\Arty\MicroBlaze\MicroBlaze.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_hello_world.elf_on_local.tcl'
+19:38:03 INFO  : Disconnected from the channel tcfchan#1.
+19:38:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A43BFEA" && level==0} -index 0' command is executed.
+19:38:05 INFO  : 'fpga -state' command is executed.
+19:38:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:38:05 INFO  : Jtag cable 'Digilent Arty 210319A43BFEA' is selected.
+19:38:05 INFO  : 'jtag frequency' command is executed.
+19:38:05 INFO  : Context for processor 'microblaze_0' is selected.
+19:38:05 INFO  : Processor reset is completed for 'microblaze_0'.
+19:38:05 INFO  : Context for processor 'microblaze_0' is selected.
+19:38:05 INFO  : The application 'C:/Arty/MicroBlaze/MicroBlaze.sdk/Hello_world/Debug/Hello_world.elf' is downloaded to processor 'microblaze_0'.
+19:38:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A43BFEA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A43BFEA"} -index 0
+dow C:/Arty/MicroBlaze/MicroBlaze.sdk/Hello_world/Debug/Hello_world.elf
+----------------End of Script----------------
+
+19:38:05 INFO  : Memory regions updated for context MicroBlaze #0
+19:38:05 INFO  : Memory regions updated for context MicroBlaze #0
+19:38:05 INFO  : Context for processor 'microblaze_0' is selected.
+19:38:05 INFO  : 'con' command is executed.
+19:38:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A43BFEA"} -index 0
+con
+----------------End of Script----------------
+
+19:38:05 INFO  : Launch script is exported to file 'C:\Arty\MicroBlaze\MicroBlaze.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_hello_world.elf_on_local.tcl'
+19:38:22 INFO  : Disconnected from the channel tcfchan#2.
+19:38:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A43BFEA" && level==0} -index 0' command is executed.
+19:38:23 INFO  : 'fpga -state' command is executed.
+19:38:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:38:23 INFO  : Jtag cable 'Digilent Arty 210319A43BFEA' is selected.
+19:38:23 INFO  : 'jtag frequency' command is executed.
+19:38:23 INFO  : Context for processor 'microblaze_0' is selected.
+19:38:24 INFO  : Processor reset is completed for 'microblaze_0'.
+19:38:24 INFO  : Context for processor 'microblaze_0' is selected.
+19:38:24 INFO  : The application 'C:/Arty/MicroBlaze/MicroBlaze.sdk/Hello_world/Debug/Hello_world.elf' is downloaded to processor 'microblaze_0'.
+19:38:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A43BFEA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A43BFEA"} -index 0
+dow C:/Arty/MicroBlaze/MicroBlaze.sdk/Hello_world/Debug/Hello_world.elf
+----------------End of Script----------------
+
+19:38:24 INFO  : Memory regions updated for context MicroBlaze #0
+19:38:24 INFO  : Memory regions updated for context MicroBlaze #0
+19:38:24 INFO  : Context for processor 'microblaze_0' is selected.
+19:38:24 INFO  : 'con' command is executed.
+19:38:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A43BFEA"} -index 0
+con
+----------------End of Script----------------
+
+19:38:24 INFO  : Launch script is exported to file 'C:\Arty\MicroBlaze\MicroBlaze.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_hello_world.elf_on_local.tcl'
+20:06:24 INFO  : Disconnected from the channel tcfchan#3.
+20:06:28 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

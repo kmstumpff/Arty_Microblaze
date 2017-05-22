@@ -1,0 +1,479 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sun May 21 18:42:24 2017
+# Process ID: 11008
+# Current directory: C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1
+# Command line: vivado.exe -log system_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_wrapper.tcl
+# Log file: C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/system_wrapper.vds
+# Journal file: C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.1/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'system_microblaze_0_1' generated file not found 'c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_microblaze_0_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'system_mdm_1_1' generated file not found 'c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mdm_1_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'system_rst_mig_7series_0_83M_1' generated file not found 'c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_rst_mig_7series_0_83M_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'system_axi_uartlite_0_1' generated file not found 'c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_uartlite_0_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'system_dlmb_v10_1' generated file not found 'c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_dlmb_v10_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'system_ilmb_v10_1' generated file not found 'c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_ilmb_v10_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'system_dlmb_bram_if_cntlr_1' generated file not found 'c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_dlmb_bram_if_cntlr_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'system_ilmb_bram_if_cntlr_1' generated file not found 'c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_ilmb_bram_if_cntlr_1/stats.txt'. Please regenerate to continue.
+add_files: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 355.141 ; gain = 99.770
+Command: synth_design -top system_wrapper -part xc7a35ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti-csg324'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti-csg324'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9720 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 443.238 ; gain = 75.047
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'system_wrapper' [C:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/hdl/system_wrapper.v:12]
+INFO: [Synth 8-638] synthesizing module 'system' [C:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/hdl/system.v:379]
+INFO: [Synth 8-638] synthesizing module 'system_axi_smc_1' [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_axi_smc_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'system_axi_smc_1' (1#1) [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_axi_smc_1_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'system_axi_uartlite_0_1' [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_axi_uartlite_0_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'system_axi_uartlite_0_1' (2#1) [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_axi_uartlite_0_1_stub.v:6]
+WARNING: [Synth 8-350] instance 'axi_uartlite_0' of module 'system_axi_uartlite_0_1' requires 22 connections, but only 21 given [C:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/hdl/system.v:692]
+INFO: [Synth 8-638] synthesizing module 'system_clk_wiz_0_1' [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_clk_wiz_0_1_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'system_clk_wiz_0_1' (3#1) [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_clk_wiz_0_1_stub.v:5]
+WARNING: [Synth 8-350] instance 'clk_wiz_0' of module 'system_clk_wiz_0_1' requires 5 connections, but only 4 given [C:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/hdl/system.v:714]
+INFO: [Synth 8-638] synthesizing module 'system_mdm_1_1' [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_mdm_1_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'system_mdm_1_1' (4#1) [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_mdm_1_1_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'system_microblaze_0_1' [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_microblaze_0_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'system_microblaze_0_1' (5#1) [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_microblaze_0_1_stub.v:6]
+WARNING: [Synth 8-350] instance 'microblaze_0' of module 'system_microblaze_0_1' requires 126 connections, but only 105 given [C:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/hdl/system.v:732]
+INFO: [Synth 8-638] synthesizing module 'system_microblaze_0_axi_periph_1' [C:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/hdl/system.v:971]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_1LZPV07' [C:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/hdl/system.v:246]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_1LZPV07' (6#1) [C:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/hdl/system.v:246]
+INFO: [Synth 8-256] done synthesizing module 'system_microblaze_0_axi_periph_1' (7#1) [C:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/hdl/system.v:971]
+INFO: [Synth 8-638] synthesizing module 'microblaze_0_local_memory_imp_OGE0N8' [C:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/hdl/system.v:12]
+INFO: [Synth 8-638] synthesizing module 'system_dlmb_bram_if_cntlr_1' [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_dlmb_bram_if_cntlr_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'system_dlmb_bram_if_cntlr_1' (8#1) [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_dlmb_bram_if_cntlr_1_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'system_dlmb_v10_1' [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_dlmb_v10_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'system_dlmb_v10_1' (9#1) [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_dlmb_v10_1_stub.v:6]
+WARNING: [Synth 8-350] instance 'dlmb_v10' of module 'system_dlmb_v10_1' requires 25 connections, but only 24 given [C:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/hdl/system.v:158]
+INFO: [Synth 8-638] synthesizing module 'system_ilmb_bram_if_cntlr_1' [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_ilmb_bram_if_cntlr_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'system_ilmb_bram_if_cntlr_1' (10#1) [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_ilmb_bram_if_cntlr_1_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'system_ilmb_v10_1' [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_ilmb_v10_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'system_ilmb_v10_1' (11#1) [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_ilmb_v10_1_stub.v:6]
+WARNING: [Synth 8-350] instance 'ilmb_v10' of module 'system_ilmb_v10_1' requires 25 connections, but only 24 given [C:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/hdl/system.v:204]
+INFO: [Synth 8-638] synthesizing module 'system_lmb_bram_1' [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_lmb_bram_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'system_lmb_bram_1' (12#1) [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_lmb_bram_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_0_local_memory_imp_OGE0N8' (13#1) [C:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/hdl/system.v:12]
+INFO: [Synth 8-638] synthesizing module 'system_mig_7series_0_1' [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_mig_7series_0_1_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'system_mig_7series_0_1' (14#1) [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_mig_7series_0_1_stub.v:5]
+WARNING: [Synth 8-350] instance 'mig_7series_0' of module 'system_mig_7series_0_1' requires 64 connections, but only 57 given [C:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/hdl/system.v:901]
+INFO: [Synth 8-638] synthesizing module 'system_rst_mig_7series_0_83M_1' [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_rst_mig_7series_0_83M_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'system_rst_mig_7series_0_83M_1' (15#1) [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/realtime/system_rst_mig_7series_0_83M_1_stub.v:6]
+WARNING: [Synth 8-350] instance 'rst_mig_7series_0_83M' of module 'system_rst_mig_7series_0_83M_1' requires 10 connections, but only 9 given [C:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/hdl/system.v:959]
+INFO: [Synth 8-256] done synthesizing module 'system' (16#1) [C:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/hdl/system.v:379]
+INFO: [Synth 8-256] done synthesizing module 'system_wrapper' (17#1) [C:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/hdl/system_wrapper.v:12]
+WARNING: [Synth 8-3331] design s00_couplers_imp_1LZPV07 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_1LZPV07 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design s00_couplers_imp_1LZPV07 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_1LZPV07 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design system_microblaze_0_axi_periph_1 has unconnected port ACLK
+WARNING: [Synth 8-3331] design system_microblaze_0_axi_periph_1 has unconnected port ARESETN
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 482.566 ; gain = 114.375
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 482.566 ; gain = 114.375
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp25/system_clk_wiz_0_1_in_context.xdc] for cell 'system_i/clk_wiz_0'
+Finished Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp25/system_clk_wiz_0_1_in_context.xdc] for cell 'system_i/clk_wiz_0'
+Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc] for cell 'system_i/mig_7series_0'
+Finished Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc] for cell 'system_i/mig_7series_0'
+Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp29/system_microblaze_0_0_in_context.xdc] for cell 'system_i/microblaze_0'
+Finished Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp29/system_microblaze_0_0_in_context.xdc] for cell 'system_i/microblaze_0'
+Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp31/system_mdm_1_0_in_context.xdc] for cell 'system_i/mdm_1'
+Finished Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp31/system_mdm_1_0_in_context.xdc] for cell 'system_i/mdm_1'
+Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp33/system_rst_mig_7series_0_83M_0_in_context.xdc] for cell 'system_i/rst_mig_7series_0_83M'
+Finished Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp33/system_rst_mig_7series_0_83M_0_in_context.xdc] for cell 'system_i/rst_mig_7series_0_83M'
+Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp35/system_axi_uartlite_0_0_in_context.xdc] for cell 'system_i/axi_uartlite_0'
+Finished Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp35/system_axi_uartlite_0_0_in_context.xdc] for cell 'system_i/axi_uartlite_0'
+Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp37/system_axi_smc_1_in_context.xdc] for cell 'system_i/axi_smc'
+Finished Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp37/system_axi_smc_1_in_context.xdc] for cell 'system_i/axi_smc'
+Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp39/system_dlmb_v10_0_in_context.xdc] for cell 'system_i/microblaze_0_local_memory/dlmb_v10'
+Finished Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp39/system_dlmb_v10_0_in_context.xdc] for cell 'system_i/microblaze_0_local_memory/dlmb_v10'
+Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp41/system_dlmb_v10_0_in_context.xdc] for cell 'system_i/microblaze_0_local_memory/ilmb_v10'
+Finished Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp41/system_dlmb_v10_0_in_context.xdc] for cell 'system_i/microblaze_0_local_memory/ilmb_v10'
+Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp43/system_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'system_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Finished Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp43/system_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'system_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp45/system_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'system_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Finished Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp45/system_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'system_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp47/system_lmb_bram_1_in_context.xdc] for cell 'system_i/microblaze_0_local_memory/lmb_bram'
+Finished Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp47/system_lmb_bram_1_in_context.xdc] for cell 'system_i/microblaze_0_local_memory/lmb_bram'
+Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 721.180 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'system_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '12.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 721.180 ; gain = 352.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 721.180 ; gain = 352.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clock. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp25/system_clk_wiz_0_1_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clock. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp25/system_clk_wiz_0_1_in_context.xdc, line 5).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 2).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 3).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[10]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[10]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 5).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[11]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 6).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[11]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 7).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[12]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 8).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[12]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 9).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[13]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 10).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[13]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 11).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[1]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 12).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[1]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 13).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[2]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 14).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[2]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 15).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[3]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 16).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[3]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 17).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[4]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 18).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[4]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 19).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[5]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 20).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[5]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 21).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[6]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 22).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[6]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 23).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[7]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 24).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[7]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 25).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[8]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 26).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[8]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 27).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[9]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 28).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[9]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 29).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_ba[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 30).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_ba[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 31).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_ba[1]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 32).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_ba[1]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 33).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_ba[2]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 34).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_ba[2]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 35).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_cas_n. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 36).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_cas_n. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 37).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_ck_n[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 38).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_ck_n[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 39).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_ck_p[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 40).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_ck_p[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 41).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_cke[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 42).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_cke[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 43).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_cs_n[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 44).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_cs_n[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 45).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dm[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 46).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dm[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 47).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dm[1]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 48).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dm[1]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 49).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 50).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 51).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[10]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 52).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[10]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 53).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[11]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 54).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[11]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 55).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[12]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 56).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[12]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 57).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[13]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 58).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[13]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 59).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[14]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 60).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[14]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 61).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[15]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 62).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[15]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 63).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[1]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 64).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[1]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 65).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[2]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 66).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[2]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 67).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[3]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 68).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[3]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 69).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[4]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 70).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[4]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 71).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[5]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 72).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[5]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 73).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[6]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 74).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[6]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 75).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[7]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 76).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[7]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 77).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[8]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 78).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[8]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 79).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[9]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 80).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[9]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 81).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dqs_n[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 82).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dqs_n[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 83).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dqs_n[1]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 84).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dqs_n[1]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 85).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dqs_p[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 86).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dqs_p[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 87).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dqs_p[1]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 88).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dqs_p[1]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 89).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_odt[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 90).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_odt[0]. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 91).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_ras_n. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 92).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_ras_n. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 93).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_reset_n. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 94).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_reset_n. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 95).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_we_n. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 96).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_we_n. (constraint file  C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/.Xil/Vivado-11008-kyle-pc/dcp27/system_mig_7series_0_1_in_context.xdc, line 97).
+Applied set_property DONT_TOUCH = true for system_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/axi_smc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/axi_uartlite_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/clk_wiz_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/mdm_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/microblaze_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/microblaze_0_axi_periph. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/microblaze_0_local_memory/dlmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/microblaze_0_local_memory/dlmb_v10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/microblaze_0_local_memory/ilmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/microblaze_0_local_memory/ilmb_v10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/microblaze_0_local_memory/lmb_bram. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/mig_7series_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/rst_mig_7series_0_83M. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 721.180 ; gain = 352.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 721.180 ; gain = 352.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design system_microblaze_0_axi_periph_1 has unconnected port ACLK
+WARNING: [Synth 8-3331] design system_microblaze_0_axi_periph_1 has unconnected port ARESETN
+WARNING: [Synth 8-3331] design system_microblaze_0_axi_periph_1 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design system_microblaze_0_axi_periph_1 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design system_microblaze_0_axi_periph_1 has unconnected port S00_ACLK
+WARNING: [Synth 8-3331] design system_microblaze_0_axi_periph_1 has unconnected port S00_ARESETN
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 721.180 ; gain = 352.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'system_i/clk_wiz_0/clk_out1' to pin 'system_i/clk_wiz_0/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'system_i/clk_wiz_0/clk_out2' to pin 'system_i/clk_wiz_0/bbstub_clk_out2/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'system_i/mig_7series_0/ui_clk' to pin 'system_i/mig_7series_0/bbstub_ui_clk/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'system_i/mdm_1/Dbg_Clk_0' to pin 'system_i/mdm_1/bbstub_Dbg_Clk_0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'system_i/mdm_1/Dbg_Update_0' to pin 'system_i/mdm_1/bbstub_Dbg_Update_0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'system_i/microblaze_0_local_memory/dlmb_bram_if_cntlr/BRAM_Clk_A' to pin 'system_i/microblaze_0_local_memory/dlmb_bram_if_cntlr/bbstub_BRAM_Clk_A/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'system_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/BRAM_Clk_A' to pin 'system_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/bbstub_BRAM_Clk_A/O'
+INFO: [Synth 8-5819] Moved 7 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 725.953 ; gain = 357.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 725.953 ; gain = 357.762
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 736.094 ; gain = 367.902
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 736.094 ; gain = 367.902
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 736.094 ; gain = 367.902
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 736.094 ; gain = 367.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 736.094 ; gain = 367.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 736.094 ; gain = 367.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 736.094 ; gain = 367.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-------------------------------+----------+
+|      |BlackBox name                  |Instances |
++------+-------------------------------+----------+
+|1     |system_axi_smc_1               |         1|
+|2     |system_axi_uartlite_0_1        |         1|
+|3     |system_clk_wiz_0_1             |         1|
+|4     |system_mdm_1_1                 |         1|
+|5     |system_microblaze_0_1          |         1|
+|6     |system_mig_7series_0_1         |         1|
+|7     |system_rst_mig_7series_0_83M_1 |         1|
+|8     |system_dlmb_bram_if_cntlr_1    |         1|
+|9     |system_dlmb_v10_1              |         1|
+|10    |system_ilmb_bram_if_cntlr_1    |         1|
+|11    |system_ilmb_v10_1              |         1|
+|12    |system_lmb_bram_1              |         1|
++------+-------------------------------+----------+
+
+Report Cell Usage: 
++------+-------------------------------+------+
+|      |Cell                           |Count |
++------+-------------------------------+------+
+|1     |system_axi_smc_1               |     1|
+|2     |system_axi_uartlite_0_1        |     1|
+|3     |system_clk_wiz_0_1             |     1|
+|4     |system_dlmb_bram_if_cntlr_1    |     1|
+|5     |system_dlmb_v10_1              |     1|
+|6     |system_ilmb_bram_if_cntlr_1    |     1|
+|7     |system_ilmb_v10_1              |     1|
+|8     |system_lmb_bram_1              |     1|
+|9     |system_mdm_1_1                 |     1|
+|10    |system_microblaze_0_1          |     1|
+|11    |system_mig_7series_0_1         |     1|
+|12    |system_rst_mig_7series_0_83M_1 |     1|
+|13    |IBUF                           |     2|
+|14    |OBUF                           |     1|
++------+-------------------------------+------+
+
+Report Instance Areas: 
++------+------------------------------+-------------------------------------+------+
+|      |Instance                      |Module                               |Cells |
++------+------------------------------+-------------------------------------+------+
+|1     |top                           |                                     |  1627|
+|2     |  system_i                    |system                               |  1624|
+|3     |    microblaze_0_axi_periph   |system_microblaze_0_axi_periph_1     |     0|
+|4     |    microblaze_0_local_memory |microblaze_0_local_memory_imp_OGE0N8 |   494|
++------+------------------------------+-------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 736.094 ; gain = 367.902
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 736.094 ; gain = 129.289
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 736.094 ; gain = 367.902
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+55 Infos, 28 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:37 . Memory (MB): peak = 747.613 ; gain = 392.473
+INFO: [Common 17-1381] The checkpoint 'C:/Arty/MicroBlaze/MicroBlaze.runs/synth_1/system_wrapper.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 747.613 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun May 21 18:43:18 2017...

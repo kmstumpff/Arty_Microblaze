@@ -1,0 +1,76 @@
+
+*** Running vivado
+    with args -log system_mdm_1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_mdm_1_0.tcl
+
+
+****** Vivado v2017.1 (64-bit)
+  **** SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+  **** IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source system_mdm_1_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 362.969 ; gain = 81.059
+INFO: [Synth 8-638] synthesizing module 'system_mdm_1_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mdm_1_0/synth/system_mdm_1_0.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'MDM' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:13563]
+INFO: [Synth 8-638] synthesizing module 'MB_BSCANE2' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:277]
+INFO: [Synth 8-256] done synthesizing module 'MB_BSCANE2' (1#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:277]
+INFO: [Synth 8-638] synthesizing module 'MB_BUFG' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:328]
+INFO: [Synth 8-256] done synthesizing module 'MB_BUFG' (2#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:328]
+INFO: [Synth 8-638] synthesizing module 'MDM_Core' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:6639]
+INFO: [Synth 8-638] synthesizing module 'JTAG_CONTROL' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:3115]
+INFO: [Synth 8-638] synthesizing module 'MB_FDC_1' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:630]
+INFO: [Synth 8-256] done synthesizing module 'MB_FDC_1' (3#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:630]
+INFO: [Synth 8-638] synthesizing module 'MB_FDRE_1' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:690]
+INFO: [Synth 8-256] done synthesizing module 'MB_FDRE_1' (4#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:690]
+INFO: [Synth 8-638] synthesizing module 'MB_SRL16E' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:759]
+INFO: [Synth 8-256] done synthesizing module 'MB_SRL16E' (5#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:759]
+INFO: [Synth 8-638] synthesizing module 'MB_SRL16E__parameterized1' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:759]
+INFO: [Synth 8-256] done synthesizing module 'MB_SRL16E__parameterized1' (5#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:759]
+INFO: [Synth 8-638] synthesizing module 'MB_SRL16E__parameterized3' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:759]
+INFO: [Synth 8-256] done synthesizing module 'MB_SRL16E__parameterized3' (5#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:759]
+INFO: [Synth 8-638] synthesizing module 'MB_SRL16E__parameterized5' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:759]
+INFO: [Synth 8-256] done synthesizing module 'MB_SRL16E__parameterized5' (5#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:759]
+INFO: [Synth 8-256] done synthesizing module 'JTAG_CONTROL' (6#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:3115]
+INFO: [Synth 8-256] done synthesizing module 'MDM_Core' (7#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:6639]
+INFO: [Synth 8-256] done synthesizing module 'MDM' (8#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/359c/hdl/mdm_v3_2_vh_rfs.vhd:13563]
+INFO: [Synth 8-256] done synthesizing module 'system_mdm_1_0' (9#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mdm_1_0/synth/system_mdm_1_0.vhd:74]
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 414.066 ; gain = 132.156
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 414.066 ; gain = 132.156
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.043 . Memory (MB): peak = 707.285 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 707.285 ; gain = 425.375
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 707.285 ; gain = 425.375
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 707.285 ; gain = 425.375
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 707.285 ; gain = 425.375
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:45 . Memory (MB): peak = 707.285 ; gain = 425.375
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:05 ; elapsed = 00:01:12 . Memory (MB): peak = 707.285 ; gain = 425.375
+Finished Timing Optimization : Time (s): cpu = 00:01:06 ; elapsed = 00:01:13 . Memory (MB): peak = 707.285 ; gain = 425.375
+Finished Technology Mapping : Time (s): cpu = 00:01:06 ; elapsed = 00:01:14 . Memory (MB): peak = 707.285 ; gain = 425.375
+Finished IO Insertion : Time (s): cpu = 00:01:08 ; elapsed = 00:01:15 . Memory (MB): peak = 707.285 ; gain = 425.375
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:08 ; elapsed = 00:01:15 . Memory (MB): peak = 707.285 ; gain = 425.375
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:08 ; elapsed = 00:01:15 . Memory (MB): peak = 707.285 ; gain = 425.375
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:08 ; elapsed = 00:01:15 . Memory (MB): peak = 707.285 ; gain = 425.375
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:08 ; elapsed = 00:01:15 . Memory (MB): peak = 707.285 ; gain = 425.375
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:08 ; elapsed = 00:01:15 . Memory (MB): peak = 707.285 ; gain = 425.375
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BSCANE2 |     1|
+|2     |BUFG    |     1|
+|3     |LUT1    |     2|
+|4     |LUT2    |    14|
+|5     |LUT3    |    28|
+|6     |LUT4    |    14|
+|7     |LUT5    |    17|
+|8     |LUT6    |    34|
+|9     |SRL16E  |     7|
+|10    |FDCE    |   100|
+|11    |FDC_1   |     1|
+|12    |FDPE    |     7|
+|13    |FDRE    |     3|
+|14    |FDRE_1  |     1|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:08 ; elapsed = 00:01:15 . Memory (MB): peak = 707.285 ; gain = 425.375
+synth_design: Time (s): cpu = 00:01:11 ; elapsed = 00:01:20 . Memory (MB): peak = 707.285 ; gain = 425.375

@@ -1,0 +1,213 @@
+
+*** Running vivado
+    with args -log system_axi_smc_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_axi_smc_0.tcl
+
+
+*** Running vivado
+    with args -log system_axi_smc_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_axi_smc_0.tcl
+
+
+****** Vivado v2017.1 (64-bit)
+  **** SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+  **** IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source system_axi_smc_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 386.387 ; gain = 90.934
+INFO: [Synth 8-638] synthesizing module 'system_axi_smc_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/synth/system_axi_smc_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/hdl/bd_44e3.v:13]
+INFO: [Synth 8-638] synthesizing module 'clk_map_imp_1LX95IS' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/hdl/bd_44e3.v:1133]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_one_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_0/synth/bd_44e3_one_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlconstant_v1_1_3_xlconstant' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/45df/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'xlconstant_v1_1_3_xlconstant' (1#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/45df/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_one_0' (2#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_0/synth/bd_44e3_one_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_psr_aclk_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_1/synth/bd_44e3_psr_aclk_0.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-638] synthesizing module 'lpf' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'SRL16' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:43657]
+INFO: [Synth 8-256] done synthesizing module 'SRL16' (3#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:43657]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (4#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (5#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (6#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (7#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (8#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_psr_aclk_0' (9#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_1/synth/bd_44e3_psr_aclk_0.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'clk_map_imp_1LX95IS' (10#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/hdl/bd_44e3.v:1133]
+INFO: [Synth 8-638] synthesizing module 'm00_exit_pipeline_imp_B7U41B' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/hdl/bd_44e3.v:1183]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_m00e_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_28/synth/bd_44e3_m00e_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_m00e_0' (20#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_28/synth/bd_44e3_m00e_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'm00_exit_pipeline_imp_B7U41B' (21#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/hdl/bd_44e3.v:1183]
+INFO: [Synth 8-638] synthesizing module 'm00_nodes_imp_XE3MPV' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/hdl/bd_44e3.v:1554]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_m00arn_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_23/synth/bd_44e3_m00arn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base' [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base' (27#1) [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized0' [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized0' (30#1) [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_m00arn_0' (36#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_23/synth/bd_44e3_m00arn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_m00awn_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_25/synth/bd_44e3_m00awn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_m00awn_0' (37#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_25/synth/bd_44e3_m00awn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_m00bn_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_27/synth/bd_44e3_m00bn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized1' [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized1' (37#1) [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized2' [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized2' (37#1) [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_m00bn_0' (38#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_27/synth/bd_44e3_m00bn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_m00rn_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_24/synth/bd_44e3_m00rn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized3' [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized3' (38#1) [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_m00rn_0' (39#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_24/synth/bd_44e3_m00rn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_m00wn_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_26/synth/bd_44e3_m00wn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized4' [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized4' (39#1) [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized5' [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized5' (39#1) [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_m00wn_0' (40#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_26/synth/bd_44e3_m00wn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'm00_nodes_imp_XE3MPV' (41#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/hdl/bd_44e3.v:1554]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_m00s2a_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_22/synth/bd_44e3_m00s2a_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_m00s2a_0' (43#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_22/synth/bd_44e3_m00s2a_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_s00a2s_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_10/synth/bd_44e3_s00a2s_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_s00a2s_0' (45#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_10/synth/bd_44e3_s00a2s_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 's00_entry_pipeline_imp_1BIQ3N0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/hdl/bd_44e3.v:1859]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_s00mmu_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_7/synth/bd_44e3_s00mmu_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_s00mmu_0' (49#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_7/synth/bd_44e3_s00mmu_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_s00sic_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_9/synth/bd_44e3_s00sic_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_s00sic_0' (54#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_9/synth/bd_44e3_s00sic_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_s00tr_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_8/synth/bd_44e3_s00tr_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_s00tr_0' (57#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_8/synth/bd_44e3_s00tr_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 's00_entry_pipeline_imp_1BIQ3N0' (58#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/hdl/bd_44e3.v:1859]
+INFO: [Synth 8-638] synthesizing module 's00_nodes_imp_1GZQO6U' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/hdl/bd_44e3.v:2470]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_sarn_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_11/synth/bd_44e3_sarn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized6' [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized6' (58#1) [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized7' [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized7' (58#1) [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_sarn_0' (59#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_11/synth/bd_44e3_sarn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_sawn_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_13/synth/bd_44e3_sawn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_sawn_0' (60#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_13/synth/bd_44e3_sawn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_sbn_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_15/synth/bd_44e3_sbn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized8' [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized8' (60#1) [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_sbn_0' (61#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_15/synth/bd_44e3_sbn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_srn_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_12/synth/bd_44e3_srn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized9' [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized9' (62#1) [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_srn_0' (63#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_12/synth/bd_44e3_srn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_swn_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_14/synth/bd_44e3_swn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized10' [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized10' (65#1) [C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_swn_0' (66#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_14/synth/bd_44e3_swn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 's00_nodes_imp_1GZQO6U' (67#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/hdl/bd_44e3.v:2470]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_s01a2s_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_19/synth/bd_44e3_s01a2s_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_s01a2s_0' (68#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_19/synth/bd_44e3_s01a2s_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 's01_entry_pipeline_imp_DDN1H4' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/hdl/bd_44e3.v:2766]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_s01mmu_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_16/synth/bd_44e3_s01mmu_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_s01mmu_0' (69#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_16/synth/bd_44e3_s01mmu_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_s01sic_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_18/synth/bd_44e3_s01sic_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_s01sic_0' (70#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_18/synth/bd_44e3_s01sic_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_s01tr_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_17/synth/bd_44e3_s01tr_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_s01tr_0' (71#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_17/synth/bd_44e3_s01tr_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 's01_entry_pipeline_imp_DDN1H4' (72#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/hdl/bd_44e3.v:2766]
+INFO: [Synth 8-638] synthesizing module 's01_nodes_imp_9Z2OAO' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/hdl/bd_44e3.v:3053]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_sarn_1' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_20/synth/bd_44e3_sarn_1.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_sarn_1' (73#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_20/synth/bd_44e3_sarn_1.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_srn_1' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_21/synth/bd_44e3_srn_1.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_srn_1' (74#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_21/synth/bd_44e3_srn_1.sv:58]
+INFO: [Synth 8-256] done synthesizing module 's01_nodes_imp_9Z2OAO' (75#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/hdl/bd_44e3.v:3053]
+INFO: [Synth 8-638] synthesizing module 'switchboards_imp_1N40MOY' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/hdl/bd_44e3.v:3184]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_arsw_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_2/synth/bd_44e3_arsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_arsw_0' (78#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_2/synth/bd_44e3_arsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_awsw_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_4/synth/bd_44e3_awsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_awsw_0' (79#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_4/synth/bd_44e3_awsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_bsw_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_6/synth/bd_44e3_bsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_bsw_0' (80#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_6/synth/bd_44e3_bsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_rsw_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_3/synth/bd_44e3_rsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_rsw_0' (81#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_3/synth/bd_44e3_rsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_44e3_wsw_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_5/synth/bd_44e3_wsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3_wsw_0' (82#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/ip/ip_5/synth/bd_44e3_wsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'switchboards_imp_1N40MOY' (83#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/hdl/bd_44e3.v:3184]
+INFO: [Synth 8-256] done synthesizing module 'bd_44e3' (84#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/bd_0/hdl/bd_44e3.v:13]
+INFO: [Synth 8-256] done synthesizing module 'system_axi_smc_0' (85#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_smc_0/synth/system_axi_smc_0.v:57]
+Finished RTL Elaboration : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 539.688 ; gain = 244.234
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 539.688 ; gain = 244.234
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+Constraint Validation Runtime : Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1367.137 ; gain = 71.141
+Finished Constraint Validation : Time (s): cpu = 00:01:19 ; elapsed = 00:01:18 . Memory (MB): peak = 1367.137 ; gain = 1071.684
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:19 ; elapsed = 00:01:18 . Memory (MB): peak = 1367.137 ; gain = 1071.684
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:19 ; elapsed = 00:01:18 . Memory (MB): peak = 1367.137 ; gain = 1071.684
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:25 ; elapsed = 00:01:25 . Memory (MB): peak = 1367.137 ; gain = 1071.684
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:15 ; elapsed = 00:02:19 . Memory (MB): peak = 1367.137 ; gain = 1071.684
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|Module Name                                                                                                                                                                        | RTL Object                       | Inference      | Size (Depth x Width) | Primitives     | 
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|inst/i_0/\m00_nodes/m00_ar_node/inst /\inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory         | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 1               | RAM32X1D x 1   | 
+|inst/i_0/\m00_nodes/m00_ar_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 158             | RAM32M x 27    | 
+|inst/i_0/\m00_nodes/m00_aw_node/inst /\inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory         | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 1               | RAM32X1D x 1   | 
+|inst/i_0/\m00_nodes/m00_aw_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 158             | RAM32M x 27    | 
+|inst/i_0/\m00_nodes/m00_b_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                      | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 19              | RAM32M x 4     | 
+|inst/i_0/\m00_nodes/m00_b_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 7               | RAM32M x 2     | 
+|inst/i_0/\m00_nodes/m00_r_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                      | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 19              | RAM32M x 4     | 
+|inst/i_0/\m00_nodes/m00_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 149             | RAM32M x 25    | 
+|inst/i_0/\m00_nodes/m00_w_node/inst /\inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[0].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory  | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 4 x 1                | RAM16X1D x 1   | 
+|inst/i_0/\m00_nodes/m00_w_node/inst /\inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[1].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory  | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 4 x 1                | RAM16X1D x 1   | 
+|inst/i_0/\m00_nodes/m00_w_node/inst /\inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory          | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 1               | RAM32X1D x 1   | 
+|inst/i_0/\m00_nodes/m00_w_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 178             | RAM32M x 30    | 
+|inst/i_0/\s00_nodes/s00_ar_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                     | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 18              | RAM32M x 3     | 
+|inst/i_0/\s00_nodes/s00_ar_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 140             | RAM32M x 24    | 
+|inst/i_0/\s00_nodes/s00_aw_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                     | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 18              | RAM32M x 3     | 
+|inst/i_0/\s00_nodes/s00_aw_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 140             | RAM32M x 24    | 
+|inst/i_0/\s00_nodes/s00_b_node/inst /\inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory          | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 1               | RAM32X1D x 1   | 
+|inst/i_0/\s00_nodes/s00_b_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 25              | RAM32M x 5     | 
+|inst/i_0/\s00_nodes/s00_r_node/inst /\inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory          | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 1               | RAM32X1D x 1   | 
+|inst/i_0/\s00_nodes/s00_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 168             | RAM32M x 28    | 
+|inst/i_0/\s00_nodes/s00_w_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                      | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 18              | RAM32M x 3     | 
+|inst/i_0/\s00_nodes/s00_w_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 160             | RAM32M x 27    | 
+|inst/i_0/\s01_nodes/s01_ar_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                     | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 18              | RAM32M x 3     | 
+|inst/i_0/\s01_nodes/s01_ar_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 140             | RAM32M x 24    | 
+|inst/i_0/\s01_nodes/s01_r_node/inst /\inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory          | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 1               | RAM32X1D x 1   | 
+|inst/i_0/\s01_nodes/s01_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 168             | RAM32M x 28    | 
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:28 ; elapsed = 00:02:31 . Memory (MB): peak = 1367.137 ; gain = 1071.684
+Finished Timing Optimization : Time (s): cpu = 00:02:32 ; elapsed = 00:02:36 . Memory (MB): peak = 1367.137 ; gain = 1071.684
+Finished Technology Mapping : Time (s): cpu = 00:02:40 ; elapsed = 00:02:44 . Memory (MB): peak = 1367.137 ; gain = 1071.684
+Finished IO Insertion : Time (s): cpu = 00:02:41 ; elapsed = 00:02:45 . Memory (MB): peak = 1367.137 ; gain = 1071.684
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:41 ; elapsed = 00:02:45 . Memory (MB): peak = 1367.137 ; gain = 1071.684
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:42 ; elapsed = 00:02:47 . Memory (MB): peak = 1367.137 ; gain = 1071.684
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:42 ; elapsed = 00:02:47 . Memory (MB): peak = 1367.137 ; gain = 1071.684
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:43 ; elapsed = 00:02:47 . Memory (MB): peak = 1367.137 ; gain = 1071.684
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:43 ; elapsed = 00:02:47 . Memory (MB): peak = 1367.137 ; gain = 1071.684
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |     6|
+|2     |LUT1     |   151|
+|3     |LUT2     |   529|
+|4     |LUT3     |   513|
+|5     |LUT4     |  1371|
+|6     |LUT5     |   461|
+|7     |LUT6     |  1011|
+|8     |RAM16X1D |     2|
+|9     |RAM32M   |   291|
+|10    |RAM32X1D |     6|
+|11    |SRL16    |     1|
+|12    |SRLC32E  |   215|
+|13    |FDR      |     4|
+|14    |FDRE     |  4097|
+|15    |FDSE     |   163|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:43 ; elapsed = 00:02:47 . Memory (MB): peak = 1367.137 ; gain = 1071.684
+synth_design: Time (s): cpu = 00:02:51 ; elapsed = 00:02:55 . Memory (MB): peak = 1367.137 ; gain = 1076.633

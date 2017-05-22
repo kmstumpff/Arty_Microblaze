@@ -1,0 +1,89 @@
+
+*** Running vivado
+    with args -log system_axi_uartlite_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_axi_uartlite_0_0.tcl
+
+
+****** Vivado v2017.1 (64-bit)
+  **** SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+  **** IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source system_axi_uartlite_0_0.tcl -notrace
+CRITICAL WARNING: [Board 49-56] Problem parsing board file - C:/Xilinx/Vivado/2017.1/data/boards/board_files/arty-s7-50/B.0/board.xml
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 362.477 ; gain = 75.703
+INFO: [Synth 8-638] synthesizing module 'system_axi_uartlite_0_0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_uartlite_0_0/synth/system_axi_uartlite_0_0.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'axi_uartlite' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/b362/hdl/axi_uartlite_v2_0_vh_rfs.vhd:2160]
+INFO: [Synth 8-638] synthesizing module 'uartlite_core' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/b362/hdl/axi_uartlite_v2_0_vh_rfs.vhd:1615]
+INFO: [Synth 8-638] synthesizing module 'baudrate' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/b362/hdl/axi_uartlite_v2_0_vh_rfs.vhd:1418]
+INFO: [Synth 8-256] done synthesizing module 'baudrate' (1#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/b362/hdl/axi_uartlite_v2_0_vh_rfs.vhd:1418]
+INFO: [Synth 8-638] synthesizing module 'uartlite_rx' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/b362/hdl/axi_uartlite_v2_0_vh_rfs.vhd:909]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (2#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_i_f' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/b362/hdl/axi_uartlite_v2_0_vh_rfs.vhd:168]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_i_f' (3#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/b362/hdl/axi_uartlite_v2_0_vh_rfs.vhd:168]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f' (4#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f' (5#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f' (6#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f' (7#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'uartlite_rx' (8#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/b362/hdl/axi_uartlite_v2_0_vh_rfs.vhd:909]
+INFO: [Synth 8-638] synthesizing module 'uartlite_tx' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/b362/hdl/axi_uartlite_v2_0_vh_rfs.vhd:408]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_i_f__parameterized0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/b362/hdl/axi_uartlite_v2_0_vh_rfs.vhd:168]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_i_f__parameterized0' (8#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/b362/hdl/axi_uartlite_v2_0_vh_rfs.vhd:168]
+INFO: [Synth 8-256] done synthesizing module 'uartlite_tx' (9#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/b362/hdl/axi_uartlite_v2_0_vh_rfs.vhd:408]
+INFO: [Synth 8-256] done synthesizing module 'uartlite_core' (10#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/b362/hdl/axi_uartlite_v2_0_vh_rfs.vhd:1615]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (11#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (11#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (11#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (11#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (12#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (13#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (14#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-256] done synthesizing module 'axi_uartlite' (15#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ipshared/b362/hdl/axi_uartlite_v2_0_vh_rfs.vhd:2160]
+INFO: [Synth 8-256] done synthesizing module 'system_axi_uartlite_0_0' (16#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_axi_uartlite_0_0/synth/system_axi_uartlite_0_0.vhd:86]
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 404.559 ; gain = 117.785
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 404.559 ; gain = 117.785
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.248 . Memory (MB): peak = 697.703 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 697.703 ; gain = 410.930
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 697.703 ; gain = 410.930
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 697.703 ; gain = 410.930
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 697.703 ; gain = 410.930
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 697.703 ; gain = 410.930
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 697.703 ; gain = 410.930
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 697.703 ; gain = 410.930
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 697.703 ; gain = 410.930
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 697.703 ; gain = 410.930
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 697.703 ; gain = 410.930
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 697.703 ; gain = 410.930
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 697.703 ; gain = 410.930
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 697.703 ; gain = 410.930
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 697.703 ; gain = 410.930
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |LUT1   |     1|
+|2     |LUT2   |    10|
+|3     |LUT3   |    22|
+|4     |LUT4   |    14|
+|5     |LUT5   |    49|
+|6     |LUT6   |    17|
+|7     |SRL16E |    18|
+|8     |FDR    |     4|
+|9     |FDRE   |    74|
+|10    |FDSE   |    16|
++------+-------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 697.703 ; gain = 410.930
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 697.703 ; gain = 423.598

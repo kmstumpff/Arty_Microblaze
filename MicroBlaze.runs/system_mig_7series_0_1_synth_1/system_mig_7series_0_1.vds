@@ -1,0 +1,336 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sun May 21 18:39:01 2017
+# Process ID: 11912
+# Current directory: C:/Arty/MicroBlaze/MicroBlaze.runs/system_mig_7series_0_1_synth_1
+# Command line: vivado.exe -log system_mig_7series_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_mig_7series_0_1.tcl
+# Log file: C:/Arty/MicroBlaze/MicroBlaze.runs/system_mig_7series_0_1_synth_1/system_mig_7series_0_1.vds
+# Journal file: C:/Arty/MicroBlaze/MicroBlaze.runs/system_mig_7series_0_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_mig_7series_0_1.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 395.301 ; gain = 80.691
+INFO: [Synth 8-638] synthesizing module 'system_mig_7series_0_1' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/system_mig_7series_0_1.v:70]
+INFO: [Synth 8-638] synthesizing module 'system_mig_7series_0_1_mig' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/system_mig_7series_0_1_mig.v:75]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_tempmon' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/clocking/mig_7series_v4_0_tempmon.v:69]
+INFO: [Synth 8-638] synthesizing module 'XADC' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:45495]
+INFO: [Synth 8-256] done synthesizing module 'XADC' (1#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:45495]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_tempmon' (2#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/clocking/mig_7series_v4_0_tempmon.v:69]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_iodelay_ctrl' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/clocking/mig_7series_v4_0_iodelay_ctrl.v:80]
+INFO: [Synth 8-638] synthesizing module 'IDELAYCTRL' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:16506]
+INFO: [Synth 8-256] done synthesizing module 'IDELAYCTRL' (3#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:16506]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_iodelay_ctrl' (4#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/clocking/mig_7series_v4_0_iodelay_ctrl.v:80]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_clk_ibuf' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/clocking/mig_7series_v4_0_clk_ibuf.v:68]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_clk_ibuf' (5#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/clocking/mig_7series_v4_0_clk_ibuf.v:68]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_infrastructure' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/clocking/mig_7series_v4_0_infrastructure.v:78]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:20759]
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV' (6#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:20759]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (7#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-638] synthesizing module 'PLLE2_ADV' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:33019]
+INFO: [Synth 8-256] done synthesizing module 'PLLE2_ADV' (8#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:33019]
+INFO: [Synth 8-638] synthesizing module 'BUFH' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-256] done synthesizing module 'BUFH' (9#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_infrastructure' (10#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/clocking/mig_7series_v4_0_infrastructure.v:78]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_memc_ui_top_axi' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/ip_top/mig_7series_v4_0_memc_ui_top_axi.v:72]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_mem_intfc' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/ip_top/mig_7series_v4_0_mem_intfc.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_mc' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_mc.v:73]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_rank_mach' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_rank_mach.v:71]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_rank_cntrl' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_rank_cntrl.v:79]
+INFO: [Synth 8-638] synthesizing module 'SRLC32E' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:43823]
+INFO: [Synth 8-256] done synthesizing module 'SRLC32E' (11#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:43823]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_rank_cntrl' (12#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_rank_cntrl.v:79]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_rank_common' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_rank_common.v:72]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_round_robin_arb' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_round_robin_arb.v:121]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_round_robin_arb' (13#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_round_robin_arb.v:121]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_round_robin_arb__parameterized0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_round_robin_arb.v:121]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_round_robin_arb__parameterized0' (13#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_round_robin_arb.v:121]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_rank_common' (14#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_rank_common.v:72]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_rank_mach' (15#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_rank_mach.v:71]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_mach' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_mach.v:72]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_cntrl' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_cntrl.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_compare' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_compare.v:74]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_compare' (16#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_compare.v:74]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_state' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_state.v:141]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_state' (17#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_state.v:141]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_queue' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_queue.v:174]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_queue' (18#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_queue.v:174]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_cntrl' (19#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_cntrl.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_cntrl__parameterized0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_cntrl.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_state__parameterized0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_state.v:141]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_state__parameterized0' (19#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_state.v:141]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_queue__parameterized0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_queue.v:174]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_queue__parameterized0' (19#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_queue.v:174]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_cntrl__parameterized0' (19#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_cntrl.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_cntrl__parameterized1' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_cntrl.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_state__parameterized1' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_state.v:141]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_state__parameterized1' (19#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_state.v:141]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_queue__parameterized1' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_queue.v:174]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_queue__parameterized1' (19#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_queue.v:174]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_cntrl__parameterized1' (19#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_cntrl.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_cntrl__parameterized2' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_cntrl.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_state__parameterized2' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_state.v:141]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_state__parameterized2' (19#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_state.v:141]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_queue__parameterized2' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_queue.v:174]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_queue__parameterized2' (19#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_queue.v:174]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_cntrl__parameterized2' (19#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_cntrl.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_common' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_common.v:73]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_common' (20#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_common.v:73]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_arb_mux' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_arb_mux.v:69]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_arb_row_col' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_arb_row_col.v:83]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_round_robin_arb__parameterized1' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_round_robin_arb.v:121]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_round_robin_arb__parameterized1' (20#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_round_robin_arb.v:121]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_arb_row_col' (21#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_arb_row_col.v:83]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_arb_select' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_arb_select.v:75]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_arb_select' (22#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_arb_select.v:75]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_arb_mux' (23#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_arb_mux.v:69]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_mach' (24#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_mach.v:72]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_col_mach' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_col_mach.v:88]
+INFO: [Synth 8-638] synthesizing module 'RAM32M' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:37094]
+INFO: [Synth 8-256] done synthesizing module 'RAM32M' (25#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:37094]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_col_mach' (26#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_col_mach.v:88]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_mc' (27#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_mc.v:73]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_phy_top' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_top.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_mc_phy_wrapper' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_mc_phy_wrapper.v:71]
+INFO: [Synth 8-638] synthesizing module 'OBUF' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:22272]
+INFO: [Synth 8-256] done synthesizing module 'OBUF' (28#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:22272]
+INFO: [Synth 8-638] synthesizing module 'OBUFT' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:22488]
+INFO: [Synth 8-256] done synthesizing module 'OBUFT' (29#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:22488]
+INFO: [Synth 8-638] synthesizing module 'IOBUF_INTERMDISABLE' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:18271]
+INFO: [Synth 8-256] done synthesizing module 'IOBUF_INTERMDISABLE' (30#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:18271]
+INFO: [Synth 8-638] synthesizing module 'IOBUFDS_INTERMDISABLE' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:17848]
+INFO: [Synth 8-256] done synthesizing module 'IOBUFDS_INTERMDISABLE' (31#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:17848]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_of_pre_fifo' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_of_pre_fifo.v:76]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_of_pre_fifo' (32#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_of_pre_fifo.v:76]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_of_pre_fifo__parameterized0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_of_pre_fifo.v:76]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_of_pre_fifo__parameterized0' (32#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_of_pre_fifo.v:76]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_mc_phy' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_mc_phy.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_phy_4lanes' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_4lanes.v:72]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_byte_lane' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_of_pre_fifo__parameterized1' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_of_pre_fifo.v:76]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_of_pre_fifo__parameterized1' (32#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_of_pre_fifo.v:76]
+INFO: [Synth 8-638] synthesizing module 'ODDR' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:25650]
+INFO: [Synth 8-256] done synthesizing module 'ODDR' (33#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:25650]
+INFO: [Synth 8-638] synthesizing module 'OBUFDS' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:22286]
+INFO: [Synth 8-256] done synthesizing module 'OBUFDS' (34#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:22286]
+INFO: [Synth 8-638] synthesizing module 'PHASER_OUT_PHY' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:32842]
+INFO: [Synth 8-256] done synthesizing module 'PHASER_OUT_PHY' (35#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:32842]
+INFO: [Synth 8-638] synthesizing module 'OUT_FIFO' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:26338]
+INFO: [Synth 8-256] done synthesizing module 'OUT_FIFO' (36#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:26338]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_byte_group_io' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_group_io.v:69]
+INFO: [Synth 8-638] synthesizing module 'OSERDESE2' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:26223]
+INFO: [Synth 8-256] done synthesizing module 'OSERDESE2' (37#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:26223]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_byte_group_io' (38#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_group_io.v:69]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_byte_lane' (39#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_byte_lane__parameterized0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_byte_group_io__parameterized0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_group_io.v:69]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_byte_group_io__parameterized0' (39#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_group_io.v:69]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_byte_lane__parameterized0' (39#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_byte_lane__parameterized1' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_if_post_fifo' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_if_post_fifo.v:68]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_if_post_fifo' (40#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_if_post_fifo.v:68]
+INFO: [Synth 8-638] synthesizing module 'PHASER_IN_PHY' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:32705]
+INFO: [Synth 8-256] done synthesizing module 'PHASER_IN_PHY' (41#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:32705]
+INFO: [Synth 8-638] synthesizing module 'IN_FIFO' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:17589]
+INFO: [Synth 8-256] done synthesizing module 'IN_FIFO' (42#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:17589]
+INFO: [Synth 8-638] synthesizing module 'PHASER_OUT_PHY__parameterized0' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:32842]
+INFO: [Synth 8-256] done synthesizing module 'PHASER_OUT_PHY__parameterized0' (42#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:32842]
+INFO: [Synth 8-638] synthesizing module 'OUT_FIFO__parameterized0' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:26338]
+INFO: [Synth 8-256] done synthesizing module 'OUT_FIFO__parameterized0' (42#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:26338]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_byte_group_io__parameterized1' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_group_io.v:69]
+INFO: [Synth 8-638] synthesizing module 'IDELAYE2' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:16519]
+INFO: [Synth 8-256] done synthesizing module 'IDELAYE2' (43#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:16519]
+INFO: [Synth 8-638] synthesizing module 'ISERDESE2' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:20009]
+INFO: [Synth 8-256] done synthesizing module 'ISERDESE2' (44#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:20009]
+INFO: [Synth 8-638] synthesizing module 'OSERDESE2__parameterized0' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:26223]
+INFO: [Synth 8-256] done synthesizing module 'OSERDESE2__parameterized0' (44#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:26223]
+INFO: [Synth 8-638] synthesizing module 'OSERDESE2__parameterized1' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:26223]
+INFO: [Synth 8-256] done synthesizing module 'OSERDESE2__parameterized1' (44#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:26223]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_byte_group_io__parameterized1' (44#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_group_io.v:69]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_byte_lane__parameterized1' (44#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_byte_lane__parameterized2' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v:70]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_byte_lane__parameterized2' (44#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v:70]
+INFO: [Synth 8-638] synthesizing module 'BUFIO' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:831]
+INFO: [Synth 8-256] done synthesizing module 'BUFIO' (45#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:831]
+INFO: [Synth 8-638] synthesizing module 'PHY_CONTROL' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:32933]
+INFO: [Synth 8-256] done synthesizing module 'PHY_CONTROL' (46#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:32933]
+INFO: [Synth 8-638] synthesizing module 'PHASER_REF' [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:32917]
+INFO: [Synth 8-256] done synthesizing module 'PHASER_REF' (47#1) [C:/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:32917]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_phy_4lanes' (48#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_4lanes.v:72]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_mc_phy' (49#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_mc_phy.v:70]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_mc_phy_wrapper' (50#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_mc_phy_wrapper.v:71]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_calib_top' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_calib_top.v:82]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_phy_wrlvl' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_wrlvl.v:90]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_phy_wrlvl' (51#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_wrlvl.v:90]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_phy_ck_addr_cmd_delay' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ck_addr_cmd_delay.v:68]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_phy_ck_addr_cmd_delay' (52#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ck_addr_cmd_delay.v:68]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_phy_dqs_found_cal_hr' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_dqs_found_cal_hr.v:79]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_phy_dqs_found_cal_hr' (53#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_dqs_found_cal_hr.v:79]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_phy_rdlvl' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_rdlvl.v:81]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_phy_rdlvl' (54#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_rdlvl.v:81]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_prbs_gen' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_prbs_gen.v:92]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_prbs_gen' (55#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_prbs_gen.v:92]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_phy_init' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_init.v:89]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_phy_init' (56#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_init.v:89]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_phy_wrcal' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_wrcal.v:77]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_phy_wrcal' (57#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_wrcal.v:77]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_phy_tempmon' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_tempmon.v:69]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_phy_tempmon' (58#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_tempmon.v:69]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_calib_top' (59#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_calib_top.v:82]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_phy_top' (60#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_top.v:70]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_mem_intfc' (61#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/ip_top/mig_7series_v4_0_mem_intfc.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ui_top' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/ui/mig_7series_v4_0_ui_top.v:71]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ui_cmd' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/ui/mig_7series_v4_0_ui_cmd.v:70]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ui_cmd' (62#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/ui/mig_7series_v4_0_ui_cmd.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ui_wr_data' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/ui/mig_7series_v4_0_ui_wr_data.v:131]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ui_wr_data' (63#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/ui/mig_7series_v4_0_ui_wr_data.v:131]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ui_rd_data' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/ui/mig_7series_v4_0_ui_rd_data.v:140]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ui_rd_data' (64#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/ui/mig_7series_v4_0_ui_rd_data.v:140]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ui_top' (65#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/ui/mig_7series_v4_0_ui_top.v:71]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc.v:90]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axi_register_slice' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axi_register_slice.v:63]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice' (66#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized0' (66#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized1' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized1' (66#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized2' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized2' (66#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axi_register_slice' (67#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axi_register_slice.v:63]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_aw_channel' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_aw_channel.v:57]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_cmd_translator' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_cmd_translator.v:62]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_incr_cmd' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_incr_cmd.v:64]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_incr_cmd' (68#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_incr_cmd.v:64]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_wrap_cmd' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_wrap_cmd.v:97]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_wrap_cmd' (69#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_wrap_cmd.v:97]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_cmd_translator' (70#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_cmd_translator.v:62]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_wr_cmd_fsm' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_wr_cmd_fsm.v:76]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_wr_cmd_fsm' (71#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_wr_cmd_fsm.v:76]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_aw_channel' (72#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_aw_channel.v:57]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_w_channel' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_w_channel.v:64]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_w_channel' (73#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_w_channel.v:64]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_b_channel' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_b_channel.v:83]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_fifo' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_fifo.v:70]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_fifo' (74#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_fifo.v:70]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_b_channel' (75#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_b_channel.v:83]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_ar_channel' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_ar_channel.v:57]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_cmd_translator__parameterized0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_cmd_translator.v:62]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_incr_cmd__parameterized0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_incr_cmd.v:64]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_incr_cmd__parameterized0' (75#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_incr_cmd.v:64]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_wrap_cmd__parameterized0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_wrap_cmd.v:97]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_wrap_cmd__parameterized0' (75#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_wrap_cmd.v:97]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_cmd_translator__parameterized0' (75#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_cmd_translator.v:62]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_cmd_fsm' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_cmd_fsm.v:72]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_cmd_fsm' (76#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_cmd_fsm.v:72]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_ar_channel' (77#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_ar_channel.v:57]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_r_channel' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_r_channel.v:67]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_fifo__parameterized0' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_fifo.v:70]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_fifo__parameterized0' (77#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_fifo.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_fifo__parameterized1' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_fifo.v:70]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_fifo__parameterized1' (77#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_fifo.v:70]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_r_channel' (78#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_r_channel.v:67]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_cmd_arbiter' [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_cmd_arbiter.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_cmd_arbiter' (79#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_cmd_arbiter.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc' (80#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc.v:90]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_memc_ui_top_axi' (81#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/ip_top/mig_7series_v4_0_memc_ui_top_axi.v:72]
+INFO: [Synth 8-256] done synthesizing module 'system_mig_7series_0_1_mig' (82#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/system_mig_7series_0_1_mig.v:75]
+INFO: [Synth 8-256] done synthesizing module 'system_mig_7series_0_1' (83#1) [c:/Arty/MicroBlaze/MicroBlaze.srcs/sources_1/bd/system/ip/system_mig_7series_0_1/system_mig_7series_0_1/user_design/rtl/system_mig_7series_0_1.v:70]
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 579.285 ; gain = 264.676
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 579.285 ; gain = 264.676
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.182 . Memory (MB): peak = 870.535 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 870.535 ; gain = 555.926
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 870.535 ; gain = 555.926
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 870.535 ; gain = 555.926
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:52 ; elapsed = 00:00:53 . Memory (MB): peak = 870.535 ; gain = 555.926
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:21 ; elapsed = 00:02:25 . Memory (MB): peak = 1327.891 ; gain = 1013.281
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------------------------+------------+---------------+----------------+
+|Module Name                   | RTL Object | Depth x Width | Implemented As | 
++------------------------------+------------+---------------+----------------+
+|mig_7series_v4_0_ddr_prbs_gen | mem_out    | 256x18        | LUT            | 
+|mig_7series_v4_0_ddr_prbs_gen | mem_out    | 256x18        | LUT            | 
++------------------------------+------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++-----------------------+---------------------------------------------------------------------------------------+-----------+----------------------+---------------+
+|Module Name            | RTL Object                                                                            | Inference | Size (Depth x Width) | Primitives    | 
++-----------------------+---------------------------------------------------------------------------------------+-----------+----------------------+---------------+
+|system_mig_7series_0_1 | of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg                                             | Implied   | 16 x 80              | RAM32M x 14   | 
+|system_mig_7series_0_1 | ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg             | Implied   | 16 x 80              | RAM32M x 14   | 
+|system_mig_7series_0_1 | ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg | Implied   | 4 x 80               | RAM32M x 14   | 
+|system_mig_7series_0_1 | ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg             | Implied   | 16 x 80              | RAM32M x 14   | 
+|system_mig_7series_0_1 | ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg | Implied   | 4 x 80               | RAM32M x 14   | 
+|system_mig_7series_0_1 | ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg             | Implied   | 16 x 80              | RAM32M x 14   | 
++-----------------------+---------------------------------------------------------------------------------------+-----------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:33 ; elapsed = 00:02:38 . Memory (MB): peak = 1402.844 ; gain = 1088.234
+Finished Timing Optimization : Time (s): cpu = 00:02:34 ; elapsed = 00:02:39 . Memory (MB): peak = 1408.855 ; gain = 1094.246
+Finished Technology Mapping : Time (s): cpu = 00:02:46 ; elapsed = 00:02:50 . Memory (MB): peak = 1411.863 ; gain = 1097.254
+Finished IO Insertion : Time (s): cpu = 00:02:47 ; elapsed = 00:02:52 . Memory (MB): peak = 1411.863 ; gain = 1097.254
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:47 ; elapsed = 00:02:52 . Memory (MB): peak = 1411.863 ; gain = 1097.254
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:49 ; elapsed = 00:02:53 . Memory (MB): peak = 1411.863 ; gain = 1097.254
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:50 ; elapsed = 00:02:54 . Memory (MB): peak = 1411.863 ; gain = 1097.254
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:50 ; elapsed = 00:02:54 . Memory (MB): peak = 1411.863 ; gain = 1097.254
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:50 ; elapsed = 00:02:54 . Memory (MB): peak = 1411.863 ; gain = 1097.254
+
+Report Cell Usage: 
++------+----------------------+------+
+|      |Cell                  |Count |
++------+----------------------+------+
+|1     |BUFG                  |     3|
+|2     |BUFH                  |     1|
+|3     |BUFIO                 |     1|
+|4     |CARRY4                |   120|
+|5     |IDELAYCTRL            |     1|
+|6     |IDELAYE2              |    16|
+|7     |IN_FIFO               |     2|
+|8     |ISERDESE2             |    16|
+|9     |LUT1                  |   448|
+|10    |LUT2                  |   465|
+|11    |LUT3                  |  1008|
+|12    |LUT4                  |   905|
+|13    |LUT5                  |  1389|
+|14    |LUT6                  |  1381|
+|15    |MMCME2_ADV            |     1|
+|16    |MUXF7                 |    13|
+|17    |ODDR                  |     5|
+|18    |OSERDESE2             |    23|
+|19    |OSERDESE2_1           |     2|
+|20    |OSERDESE2_2           |    18|
+|21    |OUT_FIFO              |     2|
+|22    |OUT_FIFO_1            |     2|
+|23    |PHASER_IN_PHY         |     2|
+|24    |PHASER_OUT_PHY        |     2|
+|25    |PHASER_OUT_PHY_1      |     2|
+|26    |PHASER_REF            |     1|
+|27    |PHY_CONTROL           |     1|
+|28    |PLLE2_ADV             |     1|
+|29    |RAM32M                |   129|
+|30    |SRL16E                |    21|
+|31    |SRLC32E               |   134|
+|32    |XADC                  |     1|
+|33    |XORCY                 |     6|
+|34    |FDCE                  |     2|
+|35    |FDPE                  |    73|
+|36    |FDRE                  |  4006|
+|37    |FDSE                  |   116|
+|38    |IOBUFDS_INTERMDISABLE |     2|
+|39    |IOBUF_INTERMDISABLE   |    16|
+|40    |OBUF                  |    24|
+|41    |OBUFDS                |     1|
+|42    |OBUFT                 |     2|
++------+----------------------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:50 ; elapsed = 00:02:54 . Memory (MB): peak = 1411.863 ; gain = 1097.254
+synth_design: Time (s): cpu = 00:02:56 ; elapsed = 00:03:00 . Memory (MB): peak = 1411.863 ; gain = 1097.254
